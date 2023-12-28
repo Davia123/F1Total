@@ -1,0 +1,80 @@
+body {
+  margin: 0px;
+  background-color: #c7c7c7;
+  background-image: url("../media/fondos/F1.png");background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+nav {
+  background-color: #D42727;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: letraF1;
+  src: url(../Formula\ 1.otf);
+}
+
+.foto{
+  width: 100% !important;
+}
+
+li {
+  font-family: letraF1;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+#idioma {
+  max-height: 20px;
+}
+
+.enlace:link,
+.enlace:visited,
+.enlace:active {
+  text-decoration: none;
+  color: #c7c7c7 !important;
+}
+
+.enlace:hover {
+  background-color: black;
+  color: #c7c7c7 !important;
+}
+
+#logo {
+  max-height: 70px;
+  margin-left: 10px !important;
+}
+
+#logo:hover {
+  opacity: 50%;
+}
+
+h2 {
+  font-family: letraF1;
+  text-align: center;
+  font-size: 31px;
+}
+
+
+
+.card {
+  height: 300px;
+  box-shadow: #00000026 1.95px 1.95px 2.6px;
+  transition: all 0.2s;
+  text-align: center;
+  margin: 10%;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.card:hover {
+  transform: scale(1.1);
+}

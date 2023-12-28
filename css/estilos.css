@@ -1,0 +1,110 @@
+body {
+  margin: 0px;
+  background-color: #c7c7c7 !important;
+}
+
+nav {
+  background-color: #D42727;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+
+.video{
+  padding-top: 5%;
+  min-width: 100%;
+  height: 500px;
+  padding-bottom: 5%;
+}
+
+
+.jumbotron {
+  background-image: url("../media/jumbotron/carrera.jpg");
+  min-height: 500px;
+  padding-top: 150px;
+  color: #c7c7c7;
+}
+
+@font-face {
+  font-family: letraF1;
+  src: url(../Formula\ 1.otf);
+}
+
+nav{
+  background-color: #D42727;
+}
+
+li {
+  font-family: letraF1;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
+.enlace:link,
+.enlace:visited,
+.enlace:active {
+  text-decoration: none;
+  color: #c7c7c7 !important;
+}
+
+.enlace:hover {
+  background-color: black;
+  color: #c7c7c7 !important;
+}
+
+.button {
+    
+  background-color: black;
+  border: none;
+  color: #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover {
+    opacity: 50%;
+}
+
+#idioma:hover {
+    opacity: 50%;
+}
+
+#logo {
+  max-height: 70px;
+  margin-left: 10px !important;
+}
+
+#logo2 {
+  max-height: 150px;
+  align-items: center;
+  margin-left: 30%;
+}
+
+#idioma {
+  max-height: 20px;
+}
+
+#logo:hover {
+  opacity: 50%;
+}
+
+#section2{
+  background-color: #D42727;
+  height: 500px;
+}
+
+
+#encabezadoMain {
+  color: #ffffff;
+  background-color: rgba(199, 199, 199, 0.3);
+  border-radius: 5px;
+  width: 60%;
+}
